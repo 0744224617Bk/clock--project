@@ -1,5 +1,51 @@
+body {
+    background-color: rgb(245, 244, 244);
+}
+.container {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgb(216, 206, 187);
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 5px;
+}
+    .city {
+    display: flex;
+    margin: 60px 0;
+    justify-content: space-between;
+    padding: 30px ;
+    border-bottom: 1px dashed grey;
+    }
+    .city:last-child {
+      border: none;  
+    }
+    h2 {
+        margin: 0 0 5px;
+        font-size: 20px;
+    }
+    .date {
+      opacity: 0.7;  
+    }
+    .time {
+      font-size: 46px;
+      font-weight: bold;  
+      }
+    .time small {
+       font-size: 24px; 
+       vertical-align:middle ;
+       line-height: 36px;  
+    }  
+    select {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+}
 h1 {
     text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
 }
 footer {
     text-align: center;

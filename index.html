@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/
+    libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax
+    /libs/moment-timezone-with-data-1978-2030.min.js"></script>
     <title>World clock - B Khumalo</title>
 </head>
-<body>
+<body> 
+    <div class="container">
     <h1>World Clock</h1>
+
+    <select id="city">
+      <option value="">Select a city..</option> 
+      <option value="">Johannesburg</option>
+      <option value="">Paris</option> 
+      <option value="">New York</option> 
+    </select>  
+    
+    <div id="cities">
+    <div class="city" id="Dubai">
+        <div>
+       <h2>Dubai</h2> 
+       <div class="date"></div>
+        </div>
+       <div class="time">1:48:15 <small>AM</small></div>
+        </div>          
+
+        <div class="city" id="Las vegas">
+          <div>
+          <h2>Las Vegas</h2> 
+          <div class="date">August 13 2024</div>
+          </div>
+          <div class="time">1:48:15 <small>AM</small></div>
+            </div>         
+    </div>
+    </div>
     <footer>Coded by Buhle Khumalo and
     <a href="https://github.com/0744224617Bk/clock--project" target="_blank".>open sourced on Github</a>.
     </footer>
